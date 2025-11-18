@@ -16,7 +16,7 @@ class ToDoManager:
     def show_all(self):
         data = load_results()
         if not data:
-            print("Hozircha hech narsa yoq")
+            print("Hozircha hech narsa yoq ")
             return
         for item in data:
             print(f"{item['id']} ---> {item["name"]} ---> {item["task"]} --->{item["date"]}") 
